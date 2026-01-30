@@ -1,81 +1,151 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Feixiao</title>
-    <meta name="description" content="Esto es la descripción de mi página web">
-    <meta name="keywords" content="html, ejercicio, ejercicio1, ejemplo">
-    <meta name="author" content="Dario Valle">
-    <meta name="application-name" content="Plantilla.html">
-    <meta name="generator" content="VSCode">
-</head>
-<body style="background-image: url(../assets/img/Fondo\ de\ pagina.avif); width: 100%; height: 100%; background-repeat: no-repeat; background-size: cover;">
-    <header style="background-color: black; height: 70px;">
-        <a href="../Inicio.html"><img src="../assets/img/LogoHonkai.png" alt="Logo Honkai Star Rail" width="90px" height="100%" style="float: left;"></a>
-        <a href="../Registro.html"><button onclick="" style="font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; float: right; color: yellow; background-color:black; border: 2px solid orange; border-radius: 3px; padding: 8px; margin: 1%;">Refistrarse</button></a>
-        <a href="../Personajes.html"><button style=" width: 10%; color: white; background-color: black; border: 2px solid orange; border-radius: 3px; float: left; margin: 1%; margin-left: 5%; padding: 8px;">Personajes</button></a>
-        <a href="../Lore.html"><button style="width: 10%; color: white; background-color: black; border: 2px solid orange; border-radius: 3px; float: left; margin: 1%; margin-left: 1%; padding: 8px;">Lore</button></a>
-        <a href="../Tienda.html"><button style="width: 10%; color: white; background-color: black; border: 2px solid orange; border-radius: 3px; float: left; margin: 1%; margin-left: 1%; padding: 8px;">Tienda</button></a>
-    </header>
-    <div style="background-color: black; width: 50%; margin-top: 8%;margin-left: 25%; opacity: 90%; padding: 1%;">
-        <table border="1" style="color: white; float: right; background-color: black; text-align: center; border-collapse:collapse; border: 1px solid orange;">
-            <tr>
-                <th style="background-color: yellow; color: black;" colspan="2">Feixiao</th>
-            </tr>
-            <tr>
-                <td colspan="2" style="color: burlywood;">La Garra del Merlín</td>
-            </tr>
-            <tr>
-                <td colspan="2"><img src="../assets/img/SplashArtFeix.png" alt="Feixiao"></td>
-            </tr>
-            <tr>
-                <td style="text-align: right; color: burlywood;">Rareza:</td>
-                <td>5 estrellas</td>
-            </tr>
-            <tr>
-                <td style="text-align: right; color: burlywood;">Tipo:</td>
-                <td>Viento</td>
-            </tr>
-            <tr>
-                <td style="text-align: right; color: burlywood;">Facción:</td>
-                <td>Cacería</td> 
-            </tr>
-        </table>
-        <p style="color: white; padding: 2%; border: 2px solid yellow; width: 60%;"><i>"‘La Garra de Merlín’ es lo que está escrito en los libros, y ‘El Gran General’ es como me llama la gente. Lo primero suena demasiado formal, lo segundo demasiado exagerado. Ninguno me conviene. Prefiero mi propio título, el ‘General Carente’ — carente de preocupaciones, arrepentimientos y rivales."</i></p><br><br>
-        <span style="color: white;">
-            <p>Una exesclava de guerra de los borisin, Feixiao es ahora la Garra de Merlin del Xianzhou Yaoqing y una de las Siete Generales Árbiter. Su personalidad es desenfrenada y franca, audaz y directa. Es experta en todas las formas de artes marciales y se ha perfeccionado en una arma suprema. Es ampliamente adorada por los soldados y civiles de Xianzhou como "La Gran General".</p>
-            <p>Sin embargo, ella lleva la carga de la aflicción de la Ira Lunar. Si ella fuera a cazar todas las abominaciones en su vida limitada — Entonces el único enemigo que tiene Feixiao sería ella misma.</p>
-        </span>
-        <table border="1" style="border-collapse: collapse; border: solid 4px white; color: white;">
-            <tr style="border-bottom:solid 4px white ;">
-                <th>Contenido</th>
-            </tr>
-            <tr>
-                <td>
-                    <ol>
-                        <a href="#A" style="color: white; text-decoration: white;"><li>Ataque basico</li></a>
-                        <a href="#H" style="color: white; text-decoration: white;"><li>Habilidad</li></a>
-                        <a href="#U" style="color: white; text-decoration: white;"><li>Ultimate</li></a>
-                        <a href="#U" style="color: white; text-decoration: white;"><li>Pasiva</li></a>
-                    </ol>
-                </td>
-            </tr>
-        </table><br><br><br>
-        <span style="color: white;">
-            <h1 id="A">Ataque basico</h1>
-            <p><b>Boltsunder:</b> Inflige Daño de Viento igual al 100% del ATQ de Feixiao a un único enemigo.</p>
-            <video src=""></video>
-            <h1 id="H">Habilidad</h1>
-            <p><b>Waraxe:</b> Inflige daño de viento equivalente al 150% del ATQ de Feixiao a un enemigo objetivo. Luego, lanza inmediatamente 1 instancia del ataque adicional del talento contra el objetivo.</p>
-            <video src=""></video>
-            <h1 id="U">Ultimate</h1>
-            <p><b>Terrasplit:</b> Inflige DMG de Viento a un enemigo objetivo único, hasta un 551% del ATK de Feixiao. Durante este tiempo, puede ignorar el Tipo de Debilidad para reducir la Dureza del objetivo. Cuando el objetivo no está Roto por Debilidad, la Eficiencia de Ruptura de Debilidad de Feixiao aumenta en un 100%. Durante el ataque, Feixiao primero lanza Boltsunder Blitz o Waraxe Skyward al objetivo, un total de 6 vez(es). Al final, inflige DMG de Viento igual al 128% del ATK de Feixiao al objetivo. Boltsunder Blitz: Inflige DMG de Viento igual al 48% del ATK de Feixiao al objetivo elegido. Si el objetivo está Roto por Debilidad, el multiplicador de DMG aumenta en un 22.5%. Waraxe Skyward: Inflige DMG de Viento igual al 48% del ATK de Feixiao al objetivo elegido. Si el objetivo no está Roto por Debilidad, el multiplicador de DMG aumenta en un 22.5%.</p>
-            <video src=""></video>
-            <h1 id="P">Pasiva</h1>
-            <p><b>Thunderhunt:</b> Puede activar el Ultimate cuando Aureus Volador alcanza 6 puntos, acumulando hasta 12 puntos. Feixiao gana 1 punto de Aureus Volador por cada 2 ataques de objetivos aliados. Los ataques Ultimate de Feixiao no cuentan para este número. Después de que los compañeros de equipo de Feixiao ataquen a un objetivo enemigo, Feixiao lanza inmediatamente un ataque de seguimiento contra el objetivo principal, infligiendo DMG de Viento igual al 82.5% del ATK de Feixiao. Si no hay un objetivo principal disponible para atacar, Feixiao ataca a un enemigo aleatorio en su lugar. Este efecto solo puede activarse una vez por turno y el conteo de activaciones se restablece al inicio del turno de Feixiao. Al usar este ataque, aumenta el DMG infligido por esta unidad en un 45%, durando 2 turno(s).</p>
-            <video src=""></video>
-        </span>
-    </div>
-</body>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Feixiao</title>
+        <meta name="description"
+            content="Esto es la descripción de mi página web">
+        <meta name="keywords" content="html, ejercicio, ejercicio1, ejemplo">
+        <meta name="author" content="Dario Valle">
+        <meta name="application-name" content="Plantilla.html">
+        <meta name="generator" content="VSCode">
+    </head>
+    <body
+        style="background-image: url(../assets/img/Fondo\ de\ pagina.avif); width: 100%; height: 100%; background-repeat: no-repeat; background-size: cover;">
+        <header style="background-color: black; height: 70px;">
+            <a href="../Inicio.html"><img src="../assets/img/LogoHonkai.png"
+                    alt="Logo Honkai Star Rail" width="90px" height="100%"
+                    style="float: left;"></a>
+            <a href="../Registro.html"><button onclick
+                    style="font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; float: right; color: yellow; background-color:black; border: 2px solid orange; border-radius: 3px; padding: 8px; margin: 1%;">Refistrarse</button></a>
+            <a href="../Personajes.html"><button
+                    style=" width: 10%; color: white; background-color: black; border: 2px solid orange; border-radius: 3px; float: left; margin: 1%; margin-left: 5%; padding: 8px;">Personajes</button></a>
+            <a href="../Lore.html"><button
+                    style="width: 10%; color: white; background-color: black; border: 2px solid orange; border-radius: 3px; float: left; margin: 1%; margin-left: 1%; padding: 8px;">Lore</button></a>
+            <a href="../Tienda.html"><button
+                    style="width: 10%; color: white; background-color: black; border: 2px solid orange; border-radius: 3px; float: left; margin: 1%; margin-left: 1%; padding: 8px;">Tienda</button></a>
+        </header>
+        <div
+            style="background-color: black; width: 50%; margin-top: 8%;margin-left: 25%; opacity: 90%; padding: 1%;">
+            <table border="1"
+                style="color: white; float: right; background-color: black; text-align: center; border-collapse:collapse; border: 1px solid orange;">
+                <tr>
+                    <th style="background-color: yellow; color: black;"
+                        colspan="2">Feixiao</th>
+                </tr>
+                <tr>
+                    <td colspan="2" style="color: burlywood;">La Garra del
+                        Merlín</td>
+                </tr>
+                <tr>
+                    <td colspan="2"><img src="../assets/img/SplashArtFeix.png"
+                            alt="Feixiao"></td>
+                </tr>
+                <tr>
+                    <td
+                        style="text-align: right; color: burlywood;">Rareza:</td>
+                    <td>5 estrellas</td>
+                </tr>
+                <tr>
+                    <td style="text-align: right; color: burlywood;">Tipo:</td>
+                    <td>Viento</td>
+                </tr>
+                <tr>
+                    <td
+                        style="text-align: right; color: burlywood;">Facción:</td>
+                    <td>Cacería</td>
+                </tr>
+            </table>
+            <p
+                style="color: white; padding: 2%; border: 2px solid yellow; width: 60%;"><i>"‘La Garra de Merlín’ es lo que está escrito en los libros, y ‘El Gran General’ es como me llama la gente. Lo primero suena demasiado formal, lo segundo demasiado exagerado. Ninguno me conviene. Prefiero mi propio título, el ‘General Carente’ — carente de preocupaciones, arrepentimientos y rivales."</i></p><br><br>
+            <span style="color: white;">
+                <p>Una exesclava de guerra de los borisin, Feixiao es ahora la
+                    Garra de Merlin del Xianzhou Yaoqing y una de las Siete
+                    Generales Árbiter. Su personalidad es desenfrenada y franca,
+                    audaz y directa. Es experta en todas las formas de artes
+                    marciales y se ha perfeccionado en una arma suprema. Es
+                    ampliamente adorada por los soldados y civiles de Xianzhou
+                    como "La Gran General".</p>
+                <p>Sin embargo, ella lleva la carga de la aflicción de la Ira
+                    Lunar. Si ella fuera a cazar todas las abominaciones en su
+                    vida limitada — Entonces el único enemigo que tiene Feixiao
+                    sería ella misma.</p>
+            </span>
+            <table border="1"
+                style="border-collapse: collapse; border: solid 4px white; color: white;">
+                <tr style="border-bottom:solid 4px white ;">
+                    <th>Contenido</th>
+                </tr>
+                <tr>
+                    <td>
+                        <ol>
+                            <a href="#A"
+                                style="color: white; text-decoration: white;"><li>Ataque
+                                    basico</li></a>
+                            <a href="#H"
+                                style="color: white; text-decoration: white;"><li>Habilidad</li></a>
+                            <a href="#U"
+                                style="color: white; text-decoration: white;"><li>Ultimate</li></a>
+                            <a href="#U"
+                                style="color: white; text-decoration: white;"><li>Pasiva</li></a>
+                        </ol>
+                    </td>
+                </tr>
+            </table><br><br><br>
+            <span style="color: white;">
+                <h1 id="A">Ataque basico</h1>
+                <p><b>Boltsunder:</b> Inflige Daño de Viento igual al 100% del
+                    ATQ de Feixiao a un único enemigo.</p>
+                <video autoplay loop muted
+                    src="../assets/video/Atk basico Feixiao.mp4"
+                    style="width: 50%;"></video>
+                <h1 id="H">Habilidad</h1>
+                <p><b>Waraxe:</b> Inflige daño de viento equivalente al 150% del
+                    ATQ de Feixiao a un enemigo objetivo. Luego, lanza
+                    inmediatamente 1 instancia del ataque adicional del talento
+                    contra el objetivo.</p>
+                <video autoplay loop muted
+                    src="../assets/video/Habilidad Feixiao.mp4"
+                    style="width: 50%;"></video>
+                <h1 id="U">Ultimate</h1>
+                <p><b>Terrasplit:</b> Inflige DMG de Viento a un enemigo
+                    objetivo único, hasta un 551% del ATK de Feixiao. Durante
+                    este tiempo, puede ignorar el Tipo de Debilidad para reducir
+                    la Dureza del objetivo. Cuando el objetivo no está Roto por
+                    Debilidad, la Eficiencia de Ruptura de Debilidad de Feixiao
+                    aumenta en un 100%. Durante el ataque, Feixiao primero lanza
+                    Boltsunder Blitz o Waraxe Skyward al objetivo, un total de 6
+                    vez(es). Al final, inflige DMG de Viento igual al 128% del
+                    ATK de Feixiao al objetivo. Boltsunder Blitz: Inflige DMG de
+                    Viento igual al 48% del ATK de Feixiao al objetivo elegido.
+                    Si el objetivo está Roto por Debilidad, el multiplicador de
+                    DMG aumenta en un 22.5%. Waraxe Skyward: Inflige DMG de
+                    Viento igual al 48% del ATK de Feixiao al objetivo elegido.
+                    Si el objetivo no está Roto por Debilidad, el multiplicador
+                    de DMG aumenta en un 22.5%.</p>
+                <video autoplay loop muted
+                    src="../assets/video/Ulti Feixiao.mp4"
+                    style="width: 50%;"></video>
+                <h1 id="P">Pasiva</h1>
+                <p><b>Thunderhunt:</b> Puede activar el Ultimate cuando Aureus
+                    Volador alcanza 6 puntos, acumulando hasta 12 puntos.
+                    Feixiao gana 1 punto de Aureus Volador por cada 2 ataques de
+                    objetivos aliados. Los ataques Ultimate de Feixiao no
+                    cuentan para este número. Después de que los compañeros de
+                    equipo de Feixiao ataquen a un objetivo enemigo, Feixiao
+                    lanza inmediatamente un ataque de seguimiento contra el
+                    objetivo principal, infligiendo DMG de Viento igual al 82.5%
+                    del ATK de Feixiao. Si no hay un objetivo principal
+                    disponible para atacar, Feixiao ataca a un enemigo aleatorio
+                    en su lugar. Este efecto solo puede activarse una vez por
+                    turno y el conteo de activaciones se restablece al inicio
+                    del turno de Feixiao. Al usar este ataque, aumenta el DMG
+                    infligido por esta unidad en un 45%, durando 2 turno(s).</p>
+                <video autoplay loop muted
+                    src="../assets/video/Pasiva Feixiao.mp4"
+                    style="width: 50%;"></video>
+            </span>
+        </div>
+    </body>
 </html>
